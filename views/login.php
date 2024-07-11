@@ -34,7 +34,6 @@ if (isset($_SESSION["success"])) {
 <?php include("common/header.php") ?>
 
 <body class="bg-gray-100">
-
     <!-- navigation bar -->
     <?php include("common/navbar.php"); ?>
 

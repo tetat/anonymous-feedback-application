@@ -28,7 +28,7 @@ $title = "Feedback Success";
                     </div>
 
                     <div class="mt-10 mx-auto w-full max-w-xl">
-                        <img src="assets/images/success.jpg" alt="">
+                        <img src="/assets/images/success.jpg" alt="" />
                     </div>
                 </div>
             </div>
