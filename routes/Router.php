@@ -23,8 +23,6 @@ class Router
         foreach ($handles as $handle) {
             $router["/feedback/$handle"] = [FeedbackController::class, "create"];
         }
-
-        // dd($path);
         
         if (isset($router[$path])) {
             [$controller, $action] = $router[$path];
@@ -37,7 +35,6 @@ class Router
                 (new $controller())->$action();
             }
         } else {
-            // dd($path);
             view("not-found");
         }
     }

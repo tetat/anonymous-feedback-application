@@ -60,10 +60,7 @@ if (isset($_SESSION["success"])) {
                                 <p class="text-xl text-red-700 bg-gray-200 p-2 rounded font-bold"><?= $errors["auth_error"] ?></p>
                             <?php endif ?>
 
-                            <form class="space-y-6" action="/login/store" method="POST" novalidate>
-
-                                <!-- <input type="hidden" name="_method" value="DELETE"> -->
-
+                            <form class="space-y-6" action="/login/store" method="POST">
                                 <div>
                                     <label for="email" class="block text-sm font-medium leading-6 text-gray-900">Email address</label>
                                     <div class="mt-2">

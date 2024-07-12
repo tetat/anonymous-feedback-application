@@ -33,7 +33,6 @@ if (isset($_SESSION["password_error"])) {
 <?php include("common/header.php") ?>
 
 <body class="bg-gray-100">
-
     <!-- navigation bar -->
     <?php include("common/navbar.php"); ?>
 
@@ -56,7 +55,7 @@ if (isset($_SESSION["password_error"])) {
                                 <p class="text-xl text-red-700 bg-gray-200 p-2 rounded font-bold"><?= $errors["auth_error"] ?></p>
                             <?php endif ?>
 
-                            <form class="space-y-6" action="/register/store" method="POST" novalidate>
+                            <form class="space-y-6" action="/register/store" method="POST">
                                 <div>
                                     <label for="name" class="block text-sm font-medium leading-6 text-gray-900">Name</label>
                                     <div class="mt-2">

@@ -16,6 +16,7 @@ $title = "Feedback Success";
 
 <main class="">
     <div class="relative flex min-h-screen flex-col justify-center overflow-hidden bg-gray-50 py-6 sm:py-12">
+        
         <!-- page background -->
         <?php include("common/page-background.php") ?>
 
